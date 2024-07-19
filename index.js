@@ -8,7 +8,7 @@ if (inputNum === null){
     alert('Your input is empty.'); 
 } else if ( Number.isNaN(inputNum) ) {
     alert('Your input is empty.');
-} else if ( ! Number.isInteger(Number(inputNum)) || inputNum < 0){
+} else if ( ! Number.isInteger(Number(inputNum)) || inputNum <= 0){
     alert('Must be natural number.')
 }else{ 
  if (Number(inputNum) === 1){
